@@ -240,6 +240,7 @@ body {
 }
 .overlay-wrap {
   position: relative;
+  transition: all 0.2s linear;
 }
 .overlay {
   position: absolute;
@@ -268,10 +269,7 @@ body {
 .team__list-item:focus .overlay {
   opacity: 1;
 }
-/* .team__list-item:hover .team__list-item-image,
-.team__list-item:focus .team__list-item-image {
-  transform: translate(-10px, -10px);
-} */
+
 .overlay__list {
   list-style: none;
   display: flex;
