@@ -134,7 +134,7 @@ body {
 .services__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-left: 0;
   list-style: none;
   margin: 0;
@@ -155,6 +155,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  background-repeat: no-repeat;
 }
 
 .services__list-item:nth-child(1)::before {
